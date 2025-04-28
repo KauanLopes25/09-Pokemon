@@ -10,3 +10,119 @@ a{
 ul, ol, li{
     list-style: none;
 }
+:root {
+    --primary-color: #F5CF06;
+    --second-color: #8E4106;
+}
+body {
+    background-color: var(--primary-color);
+    font-family: "Righteous", sans-serif;
+    height: 900px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 70px;
+    left: 70px;
+    width: 200px;
+    height: 48px;
+}
+.hero {
+    font-size: 32px;
+    height: 40px;
+    color: var(--second-color);
+}
+main {
+    /* background-color: green;; */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.background-text {
+    color: #fff2;
+    font-size: 400px;
+    position: absolute;
+    z-index: 0;
+    top: 90px;
+    right: 2px;
+}
+.pikachu {
+    position: absolute;
+    z-index: 1;
+    left: 440px;
+    bottom: 67px;
+}
+.container-center{
+    /* background-color: green; */
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: #fff;
+    font-size: 300px;
+}
+.container-inferior {
+    /* background-color: tomato; */
+    height: 200px;
+    width: 100%;
+    display: flex;
+    padding: 0 70px;
+}
+.left {
+    /* background-color: green; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.logo {
+    color: var(--second-color);
+    flex-grow: 1;
+
+}
+.logo h1{
+   font-size: 64px;
+   position: relative;
+   z-index: 2;
+}
+.logo span {
+    display: flex;
+    width: 500px;
+    height: 75px;
+    font-size: 20px;
+}
+.right {
+    /* background-color: yellow; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+button {
+    background-color: var(--second-color);
+    width: 410px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 37px;
+    border-color: transparent;
+}
+button span {
+    font-size: 48px;
+    color: #fff;
+}
+footer {
+    /* background-color: blue; */
+    display: flex;
+    color: var(--second-color);
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
