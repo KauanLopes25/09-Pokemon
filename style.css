@@ -42,36 +42,41 @@ header {
 }
 main {
     /* background-color: green;; */
+    position: relative;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
+.container-superior {
+    /* background-color: green; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 75%;
+}
 .sombra {
     color: #fff2;
+    z-index: 0;
     font-size: 400px;
     position: absolute;
-    z-index: 0;
-    top: 90px;
-    left: -12px;
-}
-.pikachu {
-    position: absolute;
-    z-index: 1;
-    left: 440px;
-    bottom: 67px;
+    bottom: 50px;
 }
 .background-text{
-    /* background-color: green; */
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+    z-index: 1;
     color: #fff;
     font-size: 300px;
 }
+.pikachu {
+    position: absolute;
+    bottom: 0px;
+    left: 430px;
+    z-index: 2;
+}
 .container-inferior {
     /* background-color: tomato; */
-    height: 200px;
+    height: 25%;
     width: 100%;
     display: flex;
     padding: 0 70px;
