@@ -62,17 +62,20 @@ main {
     font-size: 400px;
     position: absolute;
     bottom: 50px;
+    /* background-color: blue; */
 }
 .background-text{
     z-index: 1;
     color: #fff;
     font-size: 300px;
+    /* background-color: red; */
 }
 .pikachu {
     position: absolute;
-    bottom: 0px;
+    bottom: -10px;
     left: 430px;
     z-index: 2;
+    /* background-color: pink; */
 }
 .container-inferior {
     /* background-color: tomato; */
@@ -144,12 +147,12 @@ footer {
         top: 15px;
         left: 20px;
     }
-    .container-center {
+    /* .container-center {
      
     }
     .container-inferior {
 
-    }
+    } */
     footer {
         display: none;
     }
